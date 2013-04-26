@@ -55,7 +55,10 @@
             vars.push(variableName+"='"+block.replace(/'/g,'\\\'')+"'");
         }
     
-        return "(function(){ var "+vars.join(',')+"; return ['"+result+"'].join(''); })()";
+        var smashed = "(function(){ var "+vars.join(',')+"; return ['"+result+"'].join(''); })()";
+        var notsmashed = ["'",txt.replace(/'/g,'\\\''),"'"].join("");
+        
+        return smashed.length < notsmashed.length ? smashed : notsmashed;
     }
     
 })(module ? module : window, module ? 'exports' : 'stringsmash');
