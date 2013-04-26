@@ -1,0 +1,26 @@
+{
+    "name" : "stringsmash",
+    "version" : "0.1.1",
+    "description" : "Compresses a string so that it can be embedded as a variable in JavaScript.",
+    "main" : "./index.js",
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/bendytree/stringsmash.git"
+    },
+    "keywords" : [
+        "string",
+        "smash",
+        "compress",
+        "compression"
+    ],
+    "devDependencies" : {
+    },
+    "author" : {
+        "name" : "Josh Wright",
+        "email" : "josh@bendytree.com",
+        "url" : "http://bendytree.com"
+    },
+    "scripts" : {
+    },
+    "license" : "MIT/X11"
+}
