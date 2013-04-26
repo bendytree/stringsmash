@@ -1,6 +1,6 @@
 {
     "name" : "stringsmash",
-    "version" : "0.1.1",
+    "version" : "0.1.2",
     "description" : "Compresses a string so that it can be embedded as a variable in JavaScript.",
     "main" : "./index.js",
     "repository" : {
